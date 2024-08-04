@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Site</title>
+
+    <!-- stylesheet link -->
+     <link rel="stylesheet" href="style.css">
+
+     <!-- font family -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+     <script src="https://kit.fontawesome.com/9a26e4f060.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+                <div class="head">
+                    <h2><Span>S</Span>neha Hunchikar.</h2>
+                </div>
+                <div class="list">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#casestudy">Case Study</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </div>
+        </div>
+        <div class="head-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi, I'm <span>Sneha</span> Hunchikar</h1>
+        </div>
+    </div>
+    <!-- about section -->
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Creative and detail-oriented UI/UX Designer with 1.5 years of experience in crafting visually appealing and user-centric digital experiences. Proficient in Figma, HTML, and CSS, with a solid understanding of JavaScript. Skilled in user research, wireframing, prototyping, and visual design, ensuring accessibility and responsiveness across devices. Adept at collaborating with cross-functional teams to deliver intuitive and engaging user interfaces.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skils</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('course')">Course</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>Web Development</span><br>Html/Css</li>
+                                <li><span>Figma</span><br>Prototyping</li>
+                                <li><span>Bootstrap</span><br>Github</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2022-2024</span><br>UI/UX Designer at a Masira Digital Marketing Agency</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="course">
+                            <ul>
+                                <li><span>2021</span><br>UI/UX and Web Development course at NIDM,Bangalore</li>
+                                <li><span>2024</span><br>Web Development Bootcamp, Udemy</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="about-col-2">
+                        <img src="./images/daniel-korpai-8WjFJQnb_90-unsplash (1).jpg">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- ----------services---------------------- -->
+         <div id="casestudy">
+            <div class="container">
+                <h1 class="sub-title">Case-Studies</h1>
+                <div class="service-list">
+                    <div>
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <h2>Whatsapp</h2>
+                        <p>Easy Interface which is not only mean to be used by teen and adults but also for parents.</p>
+                        <a href="./images/whatsapp.png">Whatsapp</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-train"></i>
+                        <h2>UTS App</h2>
+                        <p>Redesigning would be to make it easier for customers to book unreserved train ticket and wanted to make app user interface user friendly.</p>
+                        <a href="./images/uts case study_page-0001.jpg">UTS App</a>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+         <!-- ----------Portfolio---------------------- -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/cover.png" >
+                        <div class="layer">
+                            <h3>AppTechiez Website Redesign</h3>
+                            <p>The project focused on creating intuitive and visually appealing user interface components to improve usability and engagement across web and mobile platforms.</p>
+                            <button>
+                                <a href="https://www.figma.com/design/Hn72IcKaHcHTwp9mfX9KOk/Apptechiez-Work?node-id=2719-1968&t=xefcKSRcbTV3wmiZ-1">Figma File</a>
+                            </button>
+                            
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/5am ads.png" >
+                        <div class="layer">
+                            <h3>5AM Ads App</h3>
+                            <p>Led the end-to-end UI/UX design transformation for 5AM Classifi ed Ads, a digital platform specializing in classifi ed advertisements.</p>
+                            <button>
+                                <a href="https://www.figma.com/design/cCEgFExXKdiKkKMc5NR7Lt/5am-add-(final)?node-id=0-1&t=h2UskXrgdjsxA6rn-1">Figma File</a>
+                            </button>                            
+                        </div>
+                    </div>                  
+                </div>                
+            </div>
+
+            <!-- -----------contact------------------- -->
+             <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact Me</h1>
+                            <p><i class="fa-solid fa-envelope"></i> snehaashokrao@gmail.com</p>
+                            <p><i class="fa-solid fa-phone"></i> 9986076049</p>
+                            <div class="social-icons">
+                                <a href="https://www.linkedin.com/in/sneha-hunchikar-1bb594284/"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://www.behance.net/snehahunchikar"><i class="fa-brands fa-square-behance"></i></a>
+                            </div>
+                            <a href="./file/my cv.pdf" download class="btn btn2" >Download CV</a>
+                        </div>
+                    </div>
+                </div>
+             </div>
+             <div class="copyright">
+                <p> copyright &#169 sneha.</p>
+             </div>
+        </div>
+         
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+</body>
+</html>
